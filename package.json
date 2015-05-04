@@ -1,0 +1,32 @@
+{
+  "name": "multigrid.css",
+  "version": "0.0.1",
+  "description": "Multidividable grid",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedojo/multigrid.css.git"
+  },
+  "keywords": [
+    "Grid"
+  ],
+  "author": "Piotr Sikora - fedojo.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedojo/multigrid.css/issues"
+  },
+  "homepage": "https://github.com/fedojo/multigrid.css",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jade": "^1.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-server-livereload": "^1.2.4"
+  },
+  "dependencies": {
+    "gulp-minify-css": "^1.1.1"
+  }
+}

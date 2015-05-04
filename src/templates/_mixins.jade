@@ -1,0 +1,10 @@
+mixin link(name, href)
+	a(href=href)= name
+
+mixin navList(...items)
+	ul
+		each item in items
+			li
+				+link(item, item)
+
+
